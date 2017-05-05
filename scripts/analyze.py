@@ -11,6 +11,9 @@ import sexmachine.detector as gender    # pip install SexMachine
 from requests_oauthlib import OAuth1Session
 from unidecode import unidecode         # pip install unidecode
 
+#
+# https://github.com/ajdavis/twitter-gender-distribution
+#
 
 if os.path.exists('detector.pickle'):
     detector = pickle.load(open('detector.pickle', 'rb'))
