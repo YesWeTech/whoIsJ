@@ -72,6 +72,7 @@ def usersInfo( userList ):
     female_count = 0
     male_count = 0
     nonbinary_count = 0
+    undefined_count = 0
     total_count = 0
 
     userDict = {}
@@ -90,19 +91,22 @@ def usersInfo( userList ):
 
         if g == "female":       female_count += 1
         elif g == "male":       male_count += 1
-        elif g == "nonbinary" or g == "undetermined":  nonbinary_count += 1
+        elif g == "nonbinary":  nonbinary_count += 1
+        elif g == "undetermined":  undefined_count += 1
 
         total_count += 1
 
     userDict[ "female_count" ]      =  female_count
     userDict[ "male_count" ]        =  male_count
     userDict[ "nonbinary_count" ]   =  nonbinary_count
+    userDict[ "undefined_count" ]   =  undefined_count
     userDict[ "total_count" ]       =  total_count
 
     if total_count > 0:
         userDict[ "female_rate" ]   = str((female_count * 100) / total_count)+"%"
         userDict[ "male_rate" ]     = str((male_count * 100) / total_count)+"%"
         userDict[ "nonbinary_rate" ]= str((nonbinary_count * 100) / total_count)+"%"
+        userDict[ "undefined_rate" ]= str((undefined_count * 100) / total_count)+"%"
 
     return userDict
 
@@ -113,20 +117,24 @@ def getDiversityOfIntersect( dict1, dict2 ):
         if not name_key == "female_count" and \
             not name_key == "male_count" and \
             not name_key == "nonbinary_count" and \
+            not name_key == "undefined_count" and \
             not name_key == "total_count" and \
             not name_key == "female_rate" and \
             not name_key == "male_rate" and \
             not name_key == "nonbinary_rate" and \
+            not name_key == "undefined_rate" and \
             not interDict.has_key(name_key):
             interDict[name_key] = dict1[name_key]["gender"]
     for name_key in dict2.keys():
         if not name_key == "female_count" and \
             not name_key == "male_count" and \
             not name_key == "nonbinary_count" and \
+            not name_key == "undefined_count" and \
             not name_key == "total_count" and \
             not name_key == "female_rate" and \
             not name_key == "male_rate" and \
             not name_key == "nonbinary_rate" and \
+            not name_key == "undefined_rate" and \
             not interDict.has_key(name_key):
             interDict[name_key] = dict2[name_key]["gender"]
 
@@ -134,6 +142,7 @@ def getDiversityOfIntersect( dict1, dict2 ):
     female_count = 0
     male_count = 0
     nonbinary_count = 0
+    undefined_count = 0
     total_count = 0
 
     for key in interDict.keys():
@@ -150,8 +159,9 @@ def getDiversityOfIntersect( dict1, dict2 ):
         female_rate   = str((female_count * 100) / total_count)+"%"
         male_rate     = str((male_count * 100) / total_count)+"%"
         nonbinary_rate= str((nonbinary_count * 100) / total_count)+"%"
+        undefined_rate= str((undefined_count * 100) / total_count)+"%"
 
-    return (female_count,male_count,nonbinary_count,female_rate,male_rate,nonbinary_rate,total_count)
+    return (female_count,male_count,nonbinary_count,undefined_count,female_rate,male_rate,nonbinary_rate,undefined_rate,total_count)
 
 
 
@@ -179,16 +189,20 @@ if __name__ == "__main__":
     uDict[args.screen_name]['statuses_count']   = userInfo.statuses_count
     uDict[args.screen_name]['gender']           = guessGender( userInfo.name, userInfo.description, userInfo.location )
 
-    ( female_c, male_c, nonbinary_c, female_r, male_r, nonbinary_r, total_c ) = getDiversityOfIntersect( followersInfo, friendsInfo )
+    ( female_c, male_c, nonbinary_c, undefined_c, female_r, male_r, nonbinary_r, undefined_r, total_c ) = getDiversityOfIntersect( followersInfo, friendsInfo )
 
 
     uDict[args.screen_name]['total_count']     = total_c
-    uDict[args.screen_name]['male_count']      = male_c
+
     uDict[args.screen_name]['female_count']    = female_c
+    uDict[args.screen_name]['male_count']      = male_c
     uDict[args.screen_name]['nonbinary_count'] = nonbinary_c
+    uDict[args.screen_name]['undefined_count'] = undefined_c
+
     uDict[args.screen_name]['female_rate']     = female_r
     uDict[args.screen_name]['male_rate']       = male_r
     uDict[args.screen_name]['nonbinary_rate']  = nonbinary_r
+    uDict[args.screen_name]['undefined_rate']  = undefined_r
 
 
     uDict[args.screen_name]['followers_list']   = followersInfo
@@ -197,4 +211,3 @@ if __name__ == "__main__":
     f = open( args.screen_name+'.json' , 'w')
     f.write( json.dumps(uDict) )
     f.close()
-
