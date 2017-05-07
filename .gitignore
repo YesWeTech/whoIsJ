@@ -1,0 +1,6 @@
+
+scripts/\.ipynb_checkpoints/
+
+scripts/analyze\.pyc
+
+scripts/detector\.pickle
