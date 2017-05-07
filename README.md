@@ -7,3 +7,20 @@ As co-organisers of the JOTB event we are happy to see that the number of women 
 But, Is this diversity enough? How can we know that we have succeeded in our goal? and more importantly, how can we get a more diverse event in future editions?
 
 This repository contains the source code used to analyse and present the findings made in order to investigate the diversity of the J On The Beach conference.
+
+## How to use it
+1. Clone or download the project
+2. Execute `pip`to Install following libraries
+```
+pip install twython
+pip install sexmachine
+pip install tweepy
+pip install analyze
+pip install argparse
+pip install unidecode
+pip install json
+```
+
+3. Execute `python index.py <twitter_username>`
+
+The output is given in a `json` format
