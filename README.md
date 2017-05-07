@@ -10,7 +10,7 @@ This repository contains the source code used to analyse and present the finding
 
 ## How to use it
 1. Clone or download the project
-2. Execute `pip`to Install following libraries
+2. Execute `pip`to install following libraries
 ```
 pip install twython
 pip install sexmachine
@@ -22,5 +22,4 @@ pip install json
 ```
 
 3. Execute `python index.py <twitter_username>`
-
-The output is given in a `json` format
+4. The output is given in a `json` format under the `out/` folder
