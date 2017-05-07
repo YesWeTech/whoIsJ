@@ -208,6 +208,6 @@ if __name__ == "__main__":
     uDict[args.screen_name]['followers_list']   = followersInfo
     uDict[args.screen_name]['friends_list']     = friendsInfo
 
-    f = open( args.screen_name+'.json' , 'w')
+    f = open( '../out/'+args.screen_name+'.json' , 'w')
     f.write( json.dumps(uDict) )
     f.close()
