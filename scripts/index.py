@@ -69,12 +69,6 @@ def getFriends( name ):
 
 
 def usersInfo( userList ):
-    female_count = 0
-    male_count = 0
-    nonbinary_count = 0
-    undefined_count = 0
-    total_count = 0
-
     userDict = {}
     for user in userList:
         userDict[ user["screen_name"] ] = {}
@@ -93,20 +87,6 @@ def usersInfo( userList ):
         elif g == "male":       male_count += 1
         elif g == "nonbinary":  nonbinary_count += 1
         elif g == "undetermined":  undefined_count += 1
-
-        total_count += 1
-
-    userDict[ "female_count" ]      =  female_count
-    userDict[ "male_count" ]        =  male_count
-    userDict[ "nonbinary_count" ]   =  nonbinary_count
-    userDict[ "undefined_count" ]   =  undefined_count
-    userDict[ "total_count" ]       =  total_count
-
-    if total_count > 0:
-        userDict[ "female_rate" ]   = str((female_count * 100) / total_count)+"%"
-        userDict[ "male_rate" ]     = str((male_count * 100) / total_count)+"%"
-        userDict[ "nonbinary_rate" ]= str((nonbinary_count * 100) / total_count)+"%"
-        userDict[ "undefined_rate" ]= str((undefined_count * 100) / total_count)+"%"
 
     return userDict
 
