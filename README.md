@@ -23,3 +23,7 @@ pip install json
 
 3. Execute `python index.py <twitter_username>`
 4. The output is given in a `json` format under the `out/` folder
+
+You can also analyse latest tweets from an account
+1. Execute `python tweets.py <twitter_username> <number_of_tweets>`
+2. The output is given in a `json` format under the `out/` folder
