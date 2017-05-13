@@ -83,11 +83,6 @@ def usersInfo( userList ):
         g = guessGender(  user["name"], user["description"], user["location"] )
         userDict[ user["screen_name"] ]["gender"]           = g
 
-        if g == "female":       female_count += 1
-        elif g == "male":       male_count += 1
-        elif g == "nonbinary":  nonbinary_count += 1
-        elif g == "undetermined":  undefined_count += 1
-
     return userDict
 
 def getDiversityOfIntersect( dict1, dict2 ):
