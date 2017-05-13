@@ -87,6 +87,6 @@ if __name__ == "__main__":
         users['undefined_rate']    =  undefined_rate
 
 
-    f = open( args.screen_name+'_tweets.json' , 'w')
+    f = open( '../out/'+args.screen_name+'_tweets.json' , 'w')
     f.write( json.dumps(users) )
     f.close()
