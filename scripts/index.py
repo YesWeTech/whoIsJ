@@ -89,28 +89,10 @@ def getDiversityOfIntersect( dict1, dict2 ):
     interDict = {}
     # Calc intersect
     for name_key in dict1.keys():
-        if not name_key == "female_count" and \
-            not name_key == "male_count" and \
-            not name_key == "nonbinary_count" and \
-            not name_key == "undefined_count" and \
-            not name_key == "total_count" and \
-            not name_key == "female_rate" and \
-            not name_key == "male_rate" and \
-            not name_key == "nonbinary_rate" and \
-            not name_key == "undefined_rate" and \
-            not interDict.has_key(name_key):
+        if not interDict.has_key(name_key):
             interDict[name_key] = dict1[name_key]["gender"]
     for name_key in dict2.keys():
-        if not name_key == "female_count" and \
-            not name_key == "male_count" and \
-            not name_key == "nonbinary_count" and \
-            not name_key == "undefined_count" and \
-            not name_key == "total_count" and \
-            not name_key == "female_rate" and \
-            not name_key == "male_rate" and \
-            not name_key == "nonbinary_rate" and \
-            not name_key == "undefined_rate" and \
-            not interDict.has_key(name_key):
+        if not interDict.has_key(name_key):
             interDict[name_key] = dict2[name_key]["gender"]
 
     # Get diversity info
