@@ -13,10 +13,10 @@ import json
 from index import guessGender
 
 
-consumer_key = '7yRrLekMZ2yJ0GeMuePildpuT'
-consumer_secret = '1p7SvmJp8ArfwoDofhE8ZUEg796o556t2IKNC6lBBcTwuniIE8'
-access_token = '271376218-cJyommlyAIuddB3Y5CFVWXuC0yFbkzhpJ898CzxQ'
-access_token_secret = 'AxvGAFsnvIsC0SrQJHKYjcdpCvRUC5AUWzH0FF18ROibr'
+consumer_key = 'YOUR_APP_KEY'
+consumer_secret = 'YOUR_APP_SECRET'
+access_token = 'YOUR_ACCESS_TOKEN'
+access_token_secret = 'YOUR_TOKEN_SECRET'
 
 twitter = Twython(consumer_key, consumer_secret, oauth_version=1)
 
