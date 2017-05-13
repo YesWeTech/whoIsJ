@@ -49,10 +49,13 @@ if __name__ == "__main__":
     users = {}
     timeline = api.user_timeline(screen_name=args.screen_name, count=args.count, include_rts=True)
     for tweet in timeline:
-        # hashtags = tweet._json['hashtags']
          for a in tweet._json['entities']['user_mentions']:
              if not users.has_key(a['screen_name']):
                  users[a['screen_name']] = {}
+                 users[a['screen_name']]['hashtags'] = []
+
+         for hashtag in tweet._json['entities']['hashtags']:
+             users[a['screen_name']]['hashtags'].append(hashtag['text'])
 
 
     for u in users.keys():
@@ -63,8 +66,8 @@ if __name__ == "__main__":
         g = guessGender( userInfo.name, userInfo.description, userInfo.location )
         users[u]['gender']      = g
         # Conteo
-        if g == "female": female_c += 1
-        elif g == "male": male_c += 1
+        if g == "female" or g == "mostly_female": female_c += 1
+        elif g == "male" or g == "mostly_male": male_c += 1
         elif g == "nonbinary": nonbinary_c += 1
         elif g == "undetermined": undefined_c += 1
 
