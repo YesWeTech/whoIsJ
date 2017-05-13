@@ -150,8 +150,10 @@ def getDiversityOfIntersect( dict1, dict2 ):
             female_count += 1
         elif interDict[key] == "male":
             male_count += 1
-        elif interDict[key] == "nonbinary" or interDict[key] == "undetermined":
+        elif interDict[key] == "nonbinary":
             nonbinary_count += 1
+        elif interDict[key] == "undetermined":
+            undefined_count += 1
 
         total_count += 1
 
