@@ -4,16 +4,18 @@
 
 from twython import Twython, TwythonRateLimitError
 import sexmachine.detector as gender
-import tweepy, argparse, json, time
+import tweepy
 from tweepy import OAuthHandler
 from analyze import declared_gender, split, rm_punctuation
+import argparse
 from unidecode import unidecode
+import json
 
 
-consumer_key = 'YOUR_APP_KEY'
-consumer_secret = 'YOUR_APP_SECRET'
-access_token = 'YOUR_ACCESS_TOKEN'
-access_token_secret = 'YOUR_TOKEN_SECRET'
+consumer_key = 'RGRcS3VbTYYTCg5InwpHn7wuv'
+consumer_secret = 'qKGjYAfextYSL6cBMTIZ4P3MVKwfL4jzAQjzYiuntiwenWY7L6'
+access_token = '860191918776619008-EvW5GuJQas6iNmfMMhLQFSA0qYswxKc'
+access_token_secret = 'dmMEoGKq1DuzfXVE7iSTymaU0lYq8eZ4WCcvqgwjXMLJO'
 
 twitter = Twython(consumer_key, consumer_secret, oauth_version=1)
 
@@ -59,60 +61,29 @@ def getUserInfo( name ):
 
 
 def getFollowers( name ):
-    followers = {}
-    nextCursor = -1
-
-    while nextCursor != 0:
-        try:
-            partList = twitter.get_followers_list(screen_name=name, count=200,cursor=nextCursor)
-            user_list = partList['users']
-            for user in user_list:
-                followers[user['screen_name']] = {}
-                followers[user['screen_name']]['name']              = user['name']
-                followers[user['screen_name']]['id']                = user['id']
-                followers[user['screen_name']]['lang']              = user['lang']
-                followers[user['screen_name']]['location']          = user['location']
-                followers[user['screen_name']]['friends_count']     = user['friends_count']
-                followers[user['screen_name']]['followers_count']   = user['followers_count']
-                followers[user['screen_name']]['favourites_count']  = user['favourites_count']
-                followers[user['screen_name']]['statuses_count']    = user['statuses_count']
-                followers[user['screen_name']]['gender'] =  guessGender(  user["name"], user["description"], user["location"] )
-            nextCursor = partList['next_cursor']
-        except twython.exceptions.TwythonRateLimitError:
-            print "RateLimitError, sleeping 60 secs"
-            time.sleep(60)
-
-    return followers
+    return twitter.get_followers_list(screen_name=name, count=200,cursor=-1)
 
 
 def getFriends( name ):
-    friends = {}
-    nextCursor = -1
-
-    while nextCursor != 0:
-        try:
-            partList = twitter.get_friends_list(screen_name=name, count=200,cursor=nextCursor)
-            user_list = partList['users']
-            for user in user_list:
-                friends[user['screen_name']] = {}
-                friends[user['screen_name']]['name']              = user['name']
-                friends[user['screen_name']]['id']                = user['id']
-                friends[user['screen_name']]['lang']              = user['lang']
-                friends[user['screen_name']]['location']          = user['location']
-                friends[user['screen_name']]['friends_count']     = user['friends_count']
-                friends[user['screen_name']]['followers_count']   = user['followers_count']
-                friends[user['screen_name']]['favourites_count']  = user['favourites_count']
-                friends[user['screen_name']]['statuses_count']    = user['statuses_count']
-                friends[user['screen_name']]['gender'] =  guessGender(  user["name"], user["description"], user["location"] )
-            nextCursor = partList['next_cursor']
-        except twython.exceptions.TwythonRateLimitError:
-            print "RateLimitError, sleeping 60 secs"
-            time.sleep(60)
-
-    return friends
+    return twitter.get_friends_list(screen_name=name, count=200, cursor=-1)
 
 
+def usersInfo( userList ):
+    userDict = {}
+    for user in userList:
+        userDict[ user["screen_name"] ] = {}
+        userDict[ user["screen_name"] ]["name"]             = user["name"]
+        userDict[ user["screen_name"] ]["id"]               = user["id"]
+        userDict[ user["screen_name"] ]["lang"]             = user["lang"]
+        userDict[ user["screen_name"] ]["location"]         = user["location"]
+        userDict[ user["screen_name"] ]["friends_count"]    = user["friends_count"]
+        userDict[ user["screen_name"] ]["followers_count"]  = user["followers_count"]
+        userDict[ user["screen_name"] ]["favourites_count"] = user["favourites_count"]
+        userDict[ user["screen_name"] ]["statuses_count"]   = user["statuses_count"]
+        g = guessGender(  user["name"], user["description"], user["location"] )
+        userDict[ user["screen_name"] ]["gender"]           = g
 
+    return userDict
 
 def getDiversityOfIntersect( dict1, dict2 ):
     interDict = {}
@@ -132,9 +103,9 @@ def getDiversityOfIntersect( dict1, dict2 ):
     total_count = 0
 
     for key in interDict.keys():
-        if interDict[key] == "female" or interDict[key] == "mostly_female":
+        if interDict[key] == "female":
             female_count += 1
-        elif interDict[key] == "male" or interDict[key] == "mostly_male":
+        elif interDict[key] == "male":
             male_count += 1
         elif interDict[key] == "nonbinary":
             nonbinary_count += 1
@@ -157,8 +128,11 @@ if __name__ == "__main__":
     global args
     (args, parser) = defineOptions()
 
-    followersInfo   = getFollowers( args.screen_name )
-    friendsInfo     = getFriends( args.screen_name )
+    followers = getFollowers( args.screen_name )
+    followersInfo = usersInfo( followers["users"] )
+
+    friends   = getFriends( args.screen_name )
+    friendsInfo = usersInfo( friends["users"] )
 
     userInfo = getUserInfo( args.screen_name )
     uDict = {}
