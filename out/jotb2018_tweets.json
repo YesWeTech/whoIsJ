@@ -1,0 +1,807 @@
+{
+  "jotb18": {
+    "gender": "undetermined",
+    "description": "",
+    "hashtags": [],
+    "location": "",
+    "name": "harjot bhatti"
+  },
+  "mariofusco": {
+    "gender": "male",
+    "description": "RedHatter, Drools developer, Java Champion, Milano Jug coordinator, speaker, co-author of Java 8 in Action. I'm a troll and an asshole, you've been warned",
+    "hashtags": [],
+    "location": "Milan, Italy",
+    "name": "Mario Fusco"
+  },
+  "zubron": {
+    "gender": "female",
+    "description": "",
+    "hashtags": [],
+    "location": "Bristol, England",
+    "name": "Bridget McErlean"
+  },
+  "frodriw": {
+    "gender": "male",
+    "description": "",
+    "hashtags": [],
+    "location": "Madrid, Spain",
+    "name": "Fernando Rodr\u00edguez"
+  },
+  "ashasquasha": {
+    "gender": "female",
+    "description": "Outgoing CS grad with a flair for distributed systems and an encyclopedic knowledge of central coast ecology.",
+    "hashtags": [],
+    "location": "",
+    "name": "Asha Karim"
+  },
+  "DoFideas": {
+    "gender": "male",
+    "description": "@valo_io team | T-cracia https://t.co/dKZ5e4qRwh | Coding ideas https://t.co/fa0YpHdbPJ | @DataBeersMLG with  @Yllo @lsybarguen @cibermarikiya",
+    "hashtags": [],
+    "location": "M\u00e1laga, Mediterranean Sea",
+    "name": "\u00c1lvaro Santamar\u00eda"
+  },
+  "yanaga": {
+    "gender": "male",
+    "description": "Java Champion & Microsoft MVP. Empowering developers worldwide to deliver better software faster as Director of Developer Experience at Red Hat.",
+    "hashtags": [],
+    "location": "Cary, NC",
+    "name": "Edson Yanaga"
+  },
+  "albertofem": {
+    "gender": "male",
+    "description": "Programmer",
+    "hashtags": [],
+    "location": "Barcelona",
+    "name": "Alberto Fern\u00e1ndez"
+  },
+  "hhariri": {
+    "gender": "male",
+    "description": "Developer, Speaker. Host of @TalkingKotlin. Developer Advocacy. JetBrains.",
+    "hashtags": [],
+    "location": "",
+    "name": "Hadi Hariri"
+  },
+  "lonnekedikmans": {
+    "gender": "female",
+    "description": "Head of the Center of Excellence at eProseed",
+    "hashtags": [],
+    "location": "Netherlands",
+    "name": "Lonneke Dikmans"
+  },
+  "karesti": {
+    "gender": "female",
+    "description": "Software engineer working at Red Hat - @Infinispan. Open-source, drama and dance passionate. Polyglot tweets. Board member of @duchessfr",
+    "hashtags": [],
+    "location": "Paris",
+    "name": "Katia Aresti"
+  },
+  "vsenger": {
+    "gender": "male",
+    "description": "Internet of Things, pizza maker, sailor, surfer, coder, father and wine addicted. (tweets are my own)",
+    "hashtags": [],
+    "location": "Ubatuba - SP",
+    "name": "Vinicius Senger"
+  },
+  "JeromeAvoustin": {
+    "gender": "male",
+    "description": "Developer, Craftsman and Sport addict. Software Craftsman @saagie_io. Previously SC @TweetpingGlobal.",
+    "hashtags": [],
+    "location": "Jakku",
+    "name": "J\u00e9r\u00f4me Avoustin"
+  },
+  "dadoonet": {
+    "gender": "male",
+    "description": "developer | evangelist @ elastic Enjoying NoSQL world, DeeJay 4 times a year, just for fun ! https://t.co/xhIEHl0eB0",
+    "hashtags": [],
+    "location": "France",
+    "name": "David Pilato\ud83c\uddea\ud83c\uddfa\ud83c\uddeb\ud83c\uddf7"
+  },
+  "ErlangSolutions": {
+    "gender": "undetermined",
+    "description": "World-class solutions for issues of scale, reliability and performance. Passionate about #Erlang & #Elixirlang, creators of @MongooseIM & WombatOAM.",
+    "hashtags": [],
+    "location": "London",
+    "name": "Erlang Solutions"
+  },
+  "OpenClosedBook": {
+    "gender": "female",
+    "description": "World traveller and Rugby Lover",
+    "hashtags": [],
+    "location": "",
+    "name": "Eline Brandt"
+  },
+  "rolandkuhn": {
+    "gender": "male",
+    "description": "CTO & co-founder of Actyx; building the \u00aboperating system\u00bb for the factory of the future",
+    "hashtags": [],
+    "location": "Germany",
+    "name": "Roland Kuhn"
+  },
+  "jotb": {
+    "gender": "undetermined",
+    "description": "",
+    "hashtags": [],
+    "location": "",
+    "name": "T Bourdages"
+  },
+  "JOTB2018": {
+    "gender": "undetermined",
+    "description": "An international rendezvous that brings developers and DevOps together around Big Data on the beach!",
+    "hashtags": [],
+    "location": "M\u00e1laga, Espa\u00f1a",
+    "name": "J On The Beach"
+  },
+  "k33g_org": {
+    "gender": "undetermined",
+    "description": "currently: \ud83c\uddea\ud83c\uddfa TAM @GitLab \ud83e\udd8a + deploying apps as CSO  @clever_cloud \ud83d\udca1\u2601\ufe0f + core committer @golo_lang + raising \ud83e\udd16 @BotsGarden, previously: SE @github",
+    "hashtags": [],
+    "location": "Lyon",
+    "name": "\ud83d\udc3c Ph. Charri\u00e8re"
+  },
+  "rresino": {
+    "gender": "male",
+    "description": "",
+    "hashtags": [],
+    "location": "Madrid, Espa\u00f1a",
+    "name": "Ruben"
+  },
+  "coderbyheart": {
+    "gender": "male",
+    "description": "clean code \u2728\u2328\ufe0f & lean culture \ud83c\udfe2\ud83d\udd28 Software crafter. Senior R&D Engineer @NordicTweets. Connects things to the Internet. #JavaScript #IoT #Cloud\n{\"pronoun\":\"he\"}",
+    "hashtags": [],
+    "location": "Trondheim, Norway",
+    "name": "Markus Tacker \ud83c\uddf3\ud83c\uddf4"
+  },
+  "QCon": {
+    "gender": "undetermined",
+    "description": "A practitioner-driven conference focused on facilitating the spread of knowledge and innovation in enterprise software development",
+    "hashtags": [],
+    "location": "",
+    "name": "QCon"
+  },
+  "qconlondon": {
+    "gender": "undetermined",
+    "description": "International software development conference for senior software engineers and architects. \nDownload the minibook: https://t.co/hicwVqaWIW",
+    "hashtags": [],
+    "location": "March 5-9, 2018 London",
+    "name": "QCon London"
+  },
+  "intensivedata": {
+    "gender": "undetermined",
+    "description": "An @OReillyMedia book by @martinkl.",
+    "hashtags": [],
+    "location": "ISBN 1449373321, in your favorite bookstore",
+    "name": "Data-Intensive Apps"
+  },
+  "jao1313": {
+    "gender": "male",
+    "description": "Husband, Dad, and Software Engineer at IBM with a penchant for mentoring and helping others get the most from their careers. Opinions are my own.",
+    "hashtags": [],
+    "location": "Hampshire, UK",
+    "name": "John Owen"
+  },
+  "lhuet35": {
+    "gender": "male",
+    "description": "BreizhJUG Leader & BreizhCamp team member - \nConsultant at Elastic",
+    "hashtags": [],
+    "location": "Rennes",
+    "name": "Laurent HUET"
+  },
+  "julietsvq": {
+    "gender": "female",
+    "description": "Dynamics at Microsoft. Opinions are my own.",
+    "hashtags": [],
+    "location": "",
+    "name": "Juliet Moreiro"
+  },
+  "darkjabberwock": {
+    "gender": "undetermined",
+    "description": "JUG leader @nantesjug, freelance Java(Script). I love new techs, eclipse and hubpress.",
+    "hashtags": [],
+    "location": "Nantes, France",
+    "name": "\ud83d\udc2fJabberwock Gautier"
+  },
+  "Ashley_CKeating": {
+    "gender": "mostly_female",
+    "description": "Tweeting about #SocialMedia, #DigitalSelling, Travel and the #ExpatLife in Spain - Digital Sales Programs Manager in #OracleDigital ~*~views are my own~*~",
+    "hashtags": [],
+    "location": "Espa\u00f1a",
+    "name": "Ashley Keating"
+  },
+  "miriampena": {
+    "gender": "female",
+    "description": "Staff engineer at AdRoll | Erlang specialist | Women Advocate | Gallega | One of the inspiring staff engineers to watch in 2018 by women2.0 | She/Her",
+    "hashtags": [],
+    "location": "San Francisco, CA",
+    "name": "Miriam Pena"
+  },
+  "lynncyrin": {
+    "gender": "mostly_female",
+    "description": "https://t.co/Ja0FTvsr1o \\\\ software engineer \\\\ programming zealot  \\\\ web application architect \\\\ as seen in @callisto, @bundlerio, @NASA",
+    "hashtags": [],
+    "location": "Seattle, WA",
+    "name": "Lynn Cyrin"
+  },
+  "karmel": {
+    "gender": "male",
+    "description": "Product Designer/UX Lead @EburyES - Grrrl Founder @yeswetech_ - Director @cinefilica - Co-Organiser @JOTB2018 #PyConES18 - Engineer",
+    "hashtags": [],
+    "location": "Free Palestine",
+    "name": "Carmel Hassan"
+  },
+  "htmfilho": {
+    "gender": "male",
+    "description": "Team leader at UCLouvain. Python and Java programmer. Learning Clojure, Erlang, Elixir, React and Rust.",
+    "hashtags": [],
+    "location": "",
+    "name": "Hildeberto Mendon\u00e7a"
+  },
+  "isabelcabezasm": {
+    "gender": "female",
+    "description": "Software Engineer @Microsoft (Opinions are my OWN!) | MS MVP https://t.co/qKRmcNLmCu 2014 | Green Alhambra Evangelist \ud83c\udf7b \ud83e\udd23",
+    "hashtags": [],
+    "location": "GRX, BCN, MAD",
+    "name": "Isabel Cabezas"
+  },
+  "mariascandella": {
+    "gender": "mostly_female",
+    "description": "traveller, dreamer, software developer, women in tech. Market Tech Principal @ThoughtworksESP",
+    "hashtags": [],
+    "location": "Barcelona, Spain",
+    "name": "Maria Gomez"
+  },
+  "YannDanthu": {
+    "gender": "male",
+    "description": "freelance developer \u2022 having fun with #MeteorJS \u2022 I do stuff with js java mongodb",
+    "hashtags": [],
+    "location": "Nantes (FR)",
+    "name": "Yann Danthu"
+  },
+  "julioaws": {
+    "gender": "male",
+    "description": "@awscloud technical evangelist",
+    "hashtags": [],
+    "location": "",
+    "name": "Julio Faerman"
+  },
+  "jecaestevez": {
+    "gender": "mostly_male",
+    "description": "Just a engineer  #Developer interested in  challenges\nI am ={'#Dad', '@dotnet_develop' , '@webs_develop' , '@ux_develop','https://t.co/akGdMNwLfP '}",
+    "hashtags": [],
+    "location": "M\u00e1laga - London ?",
+    "name": "Jes\u00fas Est\u00e9vez"
+  },
+  "holdenkarau": {
+    "gender": "male",
+    "description": "DA @googlecloud w/OSS Big Data. \u2764\ufe0f \u2615\ufe0f , scala, spark. I don't represent my employer. I tweet on software, trans stuff & \ud83d\udef5. Live @ https://t.co/K95CPzJOKO",
+    "hashtags": [],
+    "location": "san francisco,ca",
+    "name": "holden karau"
+  },
+  "ldoguin": {
+    "gender": "male",
+    "description": "Head of Developer Relation @clever_cloud. Devoxx Champion. I am also a nerdy metal head living in Paris.",
+    "hashtags": [],
+    "location": "Paris",
+    "name": "Laurent Doguin"
+  },
+  "mendrugory": {
+    "gender": "male",
+    "description": "I enjoy building software systems and my current tools are: Elixir, Erlang, Rust, Go and a little bit of Elm.",
+    "hashtags": [],
+    "location": "M\u00e1laga, Andaluc\u00eda",
+    "name": "Gonzalo"
+  },
+  "jboner": {
+    "gender": "male",
+    "description": "Founder & CTO of Lightbend. Creator of Akka. Powder skier. Perpetual learner. https://t.co/Ea8KskrAEi",
+    "hashtags": [],
+    "location": "Uppsala, Sweden",
+    "name": "Jonas Bon\u00e9r"
+  },
+  "SkillSeekersAU": {
+    "gender": "female",
+    "description": "",
+    "hashtags": [],
+    "location": "",
+    "name": "Hanna Karlsson"
+  },
+  "aweconf": {
+    "gender": "undetermined",
+    "description": "A curated list \ud83d\udcdd of awesome conferences around the \ud83c\udf0d",
+    "hashtags": [],
+    "location": "",
+    "name": "Awesome Conferences"
+  },
+  "ticofab": {
+    "gender": "male",
+    "description": "Reactive software engineer & community manager | Bicycle & bass lines when not busy with Tech stuff.",
+    "hashtags": [],
+    "location": "Amsterdam, Holanda",
+    "name": "Fabio Tiriticco"
+  },
+  "HashiCorp": {
+    "gender": "undetermined",
+    "description": "Provision, secure, connect, & run any infrastructure for any application. Our product suite includes Vagrant, Packer, Terraform, Vault, Nomad & Consul.",
+    "hashtags": [],
+    "location": "San Francisco, CA",
+    "name": "HashiCorp"
+  },
+  "IvanCruces": {
+    "gender": "male",
+    "description": "",
+    "hashtags": [],
+    "location": "Cadiz - Spain",
+    "name": "Iv\u00e1n Cruces"
+  },
+  "amyngyn": {
+    "gender": "female",
+    "description": "saltlord, she/her",
+    "hashtags": [],
+    "location": "san francisco",
+    "name": "amy nguyen"
+  },
+  "Tweet_Cassandra": {
+    "gender": "nonbinary",
+    "description": "#Tester, #UX enthusiast, #blogger, international #speaker, #software investigator, #quality activist. Always Be Curious. Views are my own.\nPronouns: she / they.",
+    "hashtags": [],
+    "location": "Scotland / Germany",
+    "name": "Cassandra H. Leung"
+  },
+  "EmmanuelDemey": {
+    "gender": "male",
+    "description": "CTO at @ZenikaLille - Google Developer Expert @GoogleDevExpert - Web Specialist - Speaker and Trainer, Organizer of #DevFestLille - @GDGLille",
+    "hashtags": [],
+    "location": "Lille - France",
+    "name": "Emmanuel DEMEY"
+  },
+  "kjangla": {
+    "gender": "female",
+    "description": "Kinnary Jangla is an engineering manager on the ads team at Pinterest. Previously, she has worked Uber, Bing search and Internet Explorer at Microsoft.",
+    "hashtags": [],
+    "location": "",
+    "name": "Kinnary"
+  },
+  "pablocastilla": {
+    "gender": "male",
+    "description": "#coding #photography",
+    "hashtags": [],
+    "location": "Mairena del Aljarafe",
+    "name": "Pablo Castilla"
+  },
+  "etsit_uma": {
+    "gender": "undetermined",
+    "description": "Escuela T\u00e9cnica Superior de Ingenier\u00eda de Telecomunicaci\u00f3n - Universidad de M\u00e1laga",
+    "hashtags": [],
+    "location": "",
+    "name": "ETSIT UMA"
+  },
+  "LaineVCampbell": {
+    "gender": "female",
+    "description": "SVP Engineering @fastly. Author, Database Reliability Engineering, DB and Ops nerd.",
+    "hashtags": [],
+    "location": "Las Vegas, NV",
+    "name": "Laine Campbell"
+  },
+  "NuriaTriguero": {
+    "gender": "female",
+    "description": "#Periodista en #M\u00e1laga. Redactora de #econom\u00eda en @DiarioSUR y coordinadora del suplemento Dinero&Empleo. Tambi\u00e9n tengo vida: m\u00fasica, cine, viajes, libros...",
+    "hashtags": [],
+    "location": "M\u00e1laga, Spain",
+    "name": "Nuria Triguero"
+  },
+  "jxxf": {
+    "gender": "male",
+    "description": "Builder of things, occasional public speaker, and curiosity advocate.",
+    "hashtags": [],
+    "location": "CHO / NYC / DC / SFO",
+    "name": "John \u232c \u2708\ufe0f bangbangcon"
+  },
+  "glours": {
+    "gender": "male",
+    "description": "Developer  @saagie_io  \nMember of @DevoxxFr @glours@framapiaf.org",
+    "hashtags": [],
+    "location": "Rouen",
+    "name": "Guillaume\ud83d\udc3b"
+  },
+  "trisha_gee": {
+    "gender": "female",
+    "description": "Coder/blogger/speaker, working for JetBrains.  Human.  More or less.",
+    "hashtags": [],
+    "location": "Sevilla, Spain",
+    "name": "Trisha Gee"
+  },
+  "javilinux": {
+    "gender": "undetermined",
+    "description": "Fighting my inside blerch",
+    "hashtags": [],
+    "location": "M\u00e1laga, Espa\u00f1a",
+    "name": "javilinux"
+  },
+  "mrtn_rdl": {
+    "gender": "male",
+    "description": "infosec | linux | \ud83c\uddea\ud83c\uddfa | \ud83c\udff3\ufe0f\u200d\ud83c\udf08 | building & breaking things @codecentric | er/he/his | tweets are my own and represent my personal opinion.",
+    "hashtags": [],
+    "location": "no nation",
+    "name": "(((seven of NEIN))) \ud83c\udf0e"
+  },
+  "ruslanrusu": {
+    "gender": "male",
+    "description": "coder, dreamer, runner, reader, twitter",
+    "hashtags": [],
+    "location": "New York",
+    "name": "Ruslan Rusu"
+  },
+  "CraftConf": {
+    "gender": "undetermined",
+    "description": "Join Craft to learn which tools, methods, practices should be part of the toolbox of a modern developer/company, and to have a compass on new trends and topics.",
+    "hashtags": [],
+    "location": "Budapest, Hungary, May 8-11",
+    "name": "Craft Conference"
+  },
+  "francesc": {
+    "gender": "male",
+    "description": "VP of #DevRel, #MLonCode at @sourcedtech, Catalan, Gopher, lgbtq advocate \ud83c\udff3\ufe0f\u200d\ud83c\udf08, \nprev @google, @amadeusitgroup creator of @justforfunc\n#golang\n\nhttps://t.co/",
+    "hashtags": [],
+    "location": "Sant Francesc, CA",
+    "name": "Francesc"
+  },
+  "alfageme": {
+    "gender": "male",
+    "description": "Gordopecero, seri\u00e9filo, procrastinador y dem\u00e1s adjetivos extra\u00f1os.",
+    "hashtags": [],
+    "location": "Valladolid / Ar\u00e9valo",
+    "name": "Samuel Alfageme"
+  },
+  "sergeybykov": {
+    "gender": "male",
+    "description": "Lead of the Orleans project at Microsoft. Acting on actors.\nOpinions are a complex function of my genetics, upbringing, education, life experiences, and biases.",
+    "hashtags": [],
+    "location": "Redmond WA, USA",
+    "name": "Sergey Bykov"
+  },
+  "mitchellh": {
+    "gender": "male",
+    "description": "Founder of @HashiCorp. Creator of Vagrant, Packer, Serf, Consul, Terraform, Vault, and Nomad. Lover of open source. Automation-obsessed developer.",
+    "hashtags": [],
+    "location": "Los Angeles, CA",
+    "name": "Mitchell Hashimoto"
+  },
+  "joeerl": {
+    "gender": "male",
+    "description": "Writes programs and books. Invents things. Gives talks.  Fixes broken software. Hobbies: Stroking cats, playing piano, grumbling, reading, thinking.",
+    "hashtags": [],
+    "location": "Sweden",
+    "name": "Joe Armstrong"
+  },
+  "LionelTesolin": {
+    "gender": "male",
+    "description": "Senior Solution Consultant - EMEA Oracle Direct Presales",
+    "hashtags": [],
+    "location": "Malaga, Andalousie",
+    "name": "Lionel Tesolin, ODSC"
+  },
+  "yeswetech_": {
+    "gender": "undetermined",
+    "description": "Comunidad feminista trabajando por una cultura igualitaria y orgullosa de la mujer interesada en la tecnolog\u00eda. organiza@yeswetech.org",
+    "hashtags": [],
+    "location": "M\u00e1laga, Andaluc\u00eda",
+    "name": "Yes We Tech"
+  },
+  "fastly": {
+    "gender": "undetermined",
+    "description": "Fastly\u2019s edge cloud platform powers fast, secure, and scalable digital experiences for the world\u2019s most popular businesses, including Airbnb, the NYT, & Vimeo.",
+    "hashtags": [],
+    "location": "Everywhere",
+    "name": "Fastly"
+  },
+  "Opensouthcode": {
+    "gender": "undetermined",
+    "description": "Evento software/hardware libre y open source. 1 y 2 de Junio 2018 en La T\u00e9rmica, M\u00e1laga.",
+    "hashtags": [],
+    "location": "M\u00e1laga, Andaluc\u00eda",
+    "name": "Opensouthcode"
+  },
+  "waxzce": {
+    "gender": "male",
+    "description": "CEO @clever_cloud IT automation and application sustainability for node, scala, java, php, python, docker or ruby apps + DBaaS... Build  and update apps faster",
+    "hashtags": [],
+    "location": "Nantes, France",
+    "name": "Quentin '\ud83d\udc27' ADAM"
+  },
+  "MALAGADECORA_MD": {
+    "gender": "undetermined",
+    "description": "Evento donde los profesionales y empresas tienen la oportunidad de desarrollar un proyecto de interiores en un entorno exclusivo intercambiando informaci\u00f3n.",
+    "hashtags": [],
+    "location": "M\u00e1laga, Espa\u00f1a",
+    "name": "Malagadecora"
+  },
+  "lisaphillips": {
+    "gender": "female",
+    "description": "VP of Engineering @Fastly. SRE, Tech Ops, Data. Formerly @twitter, Six Apart, LiveJournal. Latinx. She/Her, Leadership, Empathy, Coffee, Entertainment, etc.",
+    "hashtags": [],
+    "location": "The desert",
+    "name": "Lisa Phillips"
+  },
+  "Oracle": {
+    "gender": "undetermined",
+    "description": "Leading enterprise and SMB SaaS application suites for ERP, HCM & CX, with best-in-class database PaaS & IaaS from data centers worldwide. #Oracle",
+    "hashtags": [],
+    "location": "Redwood Shores, CA",
+    "name": "Oracle"
+  },
+  "arapulido": {
+    "gender": "male",
+    "description": "Working on this abstract thing called software. Engineering Manager at Bitnami.",
+    "hashtags": [],
+    "location": "Malaga, Spain",
+    "name": "Ara Pulido"
+  },
+  "bitnami": {
+    "gender": "undetermined",
+    "description": "Deploy any one of 120+ ready-to-run apps from the Bitnami App Catalog or use Bitnami Stacksmith to package and migrate your custom in-house apps to the cloud.",
+    "hashtags": [],
+    "location": "San Francisco",
+    "name": "Bitnami"
+  },
+  "moises_macero": {
+    "gender": "male",
+    "description": "Software Developer & Architect, Traveler, Hiker, Malague\u00f1o-Amsterdammer, Writer (https://t.co/Ibobb8Jz3A)",
+    "hashtags": [],
+    "location": "Amsterdam",
+    "name": "Mois\u00e9s Macero"
+  },
+  "angeladini": {
+    "gender": "undetermined",
+    "description": "Este twitter es mio y me lo follo cuando quiero",
+    "hashtags": [],
+    "location": "M\u00e1laga centro",
+    "name": "angeladini"
+  },
+  "vlad_mihalcea": {
+    "gender": "male",
+    "description": "@Java Champion, @hypersistence, @Hibernate committer, database aficionado, High-Performance Java Persistence https://t.co/SPruebrKgr. Views are my own.",
+    "hashtags": [],
+    "location": "Cluj-Napoca, Rom\u00e2nia",
+    "name": "Vlad Mihalcea"
+  },
+  "lightbend": {
+    "gender": "undetermined",
+    "description": "Lightbend Reactive Platform is a production-grade JVM runtime & toolset for building Reactive Systems. Learn more: https://t.co/EhFhOr4Xzj",
+    "hashtags": [],
+    "location": "",
+    "name": "Lightbend"
+  },
+  "ipapast": {
+    "gender": "undetermined",
+    "description": "~Enjoy the moment~ | Dev at ThoughtWorks",
+    "hashtags": [],
+    "location": "Manchester, England",
+    "name": "Ilianna Pap."
+  },
+  "ebgaio": {
+    "gender": "male",
+    "description": "Avan\u00e7os Tecnol\u00f3gicos.",
+    "hashtags": [],
+    "location": "Brasil - Minas Gerais",
+    "name": "Evandro Barroso Gaio"
+  },
+  "arnaud_bos": {
+    "gender": "male",
+    "description": "Clojure as heck. Distributed system. Podcasts. Can write backwards \ud83d\ude43",
+    "hashtags": [],
+    "location": "Toulouse, Francia",
+    "name": "Arnaud Bos"
+  },
+  "InformaticaUMA": {
+    "gender": "undetermined",
+    "description": "Twitter oficial de la E.T.S. Ingenier\u00eda Inform\u00e1tica de la Universidad de M\u00e1laga",
+    "hashtags": [],
+    "location": "M\u00e1laga. Spain",
+    "name": "ETSI Inform\u00e1tica UMA"
+  },
+  "fusillicode": {
+    "gender": "male",
+    "description": "Software engineer @CredimiPMI \u2022 MS in CS \u2022 Nerd (https://t.co/nzCDqKjcl7) \u2022 \u2764\ufe0f memes, GIFs & \ud83c\uddef\ud83c\uddf5 \u2022 \u03bb \u2696\ufe0f \u9593",
+    "hashtags": [],
+    "location": "Milan",
+    "name": "Gian D"
+  },
+  "martinkl": {
+    "gender": "male",
+    "description": "Author of @intensivedata, and working on @trvedata research project at @Cambridge_CL. Formerly @rapportive co-founder and @LinkedIn engineer.",
+    "hashtags": [],
+    "location": "Cambridge, UK",
+    "name": "Martin Kleppmann"
+  },
+  "lizrice": {
+    "gender": "female",
+    "description": "Containers / software engineering / cycling / music / @aquasecteam / co-chair @KubeCon_ / CloudNativeCon for @linuxfoundation",
+    "hashtags": [],
+    "location": "Enfield, UK",
+    "name": "Liz Rice"
+  },
+  "samehome": {
+    "gender": "male",
+    "description": "\u0421\u0442\u0440\u0430\u043d\u043d\u044b\u0439 \u0433\u0438\u043a \u0441\u043e \u0441\u0432\u043e\u0438\u043c \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435\u043c \u043a\u043e \u0432\u0441\u0435\u043c\u0443 \u043f\u0440\u043e\u0438\u0441\u0445\u043e\u0434\u044f\u0449\u0435\u043c\u0443",
+    "hashtags": [],
+    "location": "Spb",
+    "name": "Alex Savin"
+  },
+  "zlehoczky": {
+    "gender": "male",
+    "description": "Technology, software development, open source. @Lombiq",
+    "hashtags": [],
+    "location": "",
+    "name": "Zolt\u00e1n I. Leh\u00f3czky"
+  },
+  "dsyme": {
+    "gender": "male",
+    "description": "",
+    "hashtags": [],
+    "location": "",
+    "name": "Don Syme"
+  },
+  "jannabrummel": {
+    "gender": "female",
+    "description": "29 // IT Chapter Lead of SRE at ING // loves travel, internet, reading, aquatic animals, trains, musical theatre and IT/engineering",
+    "hashtags": [],
+    "location": "Utrecht, Nederland",
+    "name": "Janna Brummel"
+  },
+  "jkff": {
+    "gender": "male",
+    "description": "I like distributed systems, functional programming and academic music. I work on https://t.co/oeQMhyiU1j",
+    "hashtags": [],
+    "location": "Mountain View, CA",
+    "name": "Eugene Kirpichov"
+  },
+  "Rosadespagna": {
+    "gender": "female",
+    "description": "Project Manager at @Oracle Digital Malaga. Organizational Development #OracleDigital @oracle_es [Views expressed are my own]",
+    "hashtags": [],
+    "location": "M\u00e1laga",
+    "name": "Rosa G\u00f3mez de Tejada"
+  },
+  "arangodb": {
+    "gender": "undetermined",
+    "description": "A native multi-model NoSQL database w/ flexible data models for documents, graphs & key-values. One of the Top 5 in graph area @DBEngines.\nCEO @weinberger",
+    "hashtags": [],
+    "location": "Cologne, Germany",
+    "name": "arangodb"
+  },
+  "mjpt777": {
+    "gender": "male",
+    "description": "Pasty faced performance gangster - http://t.co/hdv0uc50SW",
+    "hashtags": [],
+    "location": "London",
+    "name": "Martin Thompson"
+  },
+  "_deors": {
+    "gender": "male",
+    "description": "lecturer in recent runes, father of 2, husband, whistle player, sci-fi lover, geek, all things architecture, java, web & devops @accenture (opinions are my own)",
+    "hashtags": [],
+    "location": "M\u00e1laga",
+    "name": "Jorge Hidalgo"
+  },
+  "latermicamlg": {
+    "gender": "undetermined",
+    "description": "#LaT\u00e9rmica, Centro de cultura contempor\u00e1nea. Diputaci\u00f3n de M\u00e1laga.",
+    "hashtags": [],
+    "location": "M\u00e1laga",
+    "name": "La T\u00e9rmica"
+  },
+  "akomarzewski": {
+    "gender": "male",
+    "description": "",
+    "hashtags": [],
+    "location": "",
+    "name": "Arek Komarzewski"
+  },
+  "SeanTAllen": {
+    "gender": "male",
+    "description": "VP of Engineering: @wallaroolabs. Author: Storm Applied. Member: @ponylang core team. He/Him.",
+    "hashtags": [],
+    "location": "Brooklyn",
+    "name": "\u00af\\_(\u30c4)_/\u00af"
+  },
+  "nickiehills": {
+    "gender": "female",
+    "description": "Friend, wife, daughter, sister, & Product Development Exec at ITRS. My opinions are very much that..... just mine, not theirs!",
+    "hashtags": [],
+    "location": "Southampton, UK",
+    "name": "Nicola Hills"
+  },
+  "Cruzcampo": {
+    "gender": "undetermined",
+    "description": "Cruzcampo Especial, la cerveza especial de Cruzcampo. Cuenta y contenido para mayores de 18 a\u00f1os. Cruzcampo recomienda un consumo responsable.",
+    "hashtags": [],
+    "location": "Espa\u00f1a",
+    "name": "Cruzcampo"
+  },
+  "rrrattlesnake": {
+    "gender": "male",
+    "description": "On the road to becoming a dev on the move. Interested in VR, complex networks, data visualisation and forgetting it all to go camping in the mountains.",
+    "hashtags": [],
+    "location": "Sydney, New South Wales",
+    "name": "Ricky Ratnayake"
+  },
+  "sirikon": {
+    "gender": "male",
+    "description": "Hippie Developer @ Plain Concepts Bilbao | Making @waves_out for @PSTalents | Amateur Photographer | Born in M\u00e1laga | Internet Freedom & Neutrality",
+    "hashtags": [],
+    "location": "Bilbao, Pais Vasco",
+    "name": "Carlos Fdez Llamas \ud83d\udcbb\ud83d\udd79\ufe0f\ud83d\udcf7"
+  },
+  "sdeleuze": {
+    "gender": "male",
+    "description": "Spring Framework committer @Pivotal, @Kotlin addict, #WebAssembly believer, @mixitconf organizer",
+    "hashtags": [],
+    "location": "Lyon, France",
+    "name": "S\u00e9bastien Deleuze"
+  },
+  "asiermarques": {
+    "gender": "male",
+    "description": "Human being. Software developer & product design apprentice. Making things @elcomite_bio",
+    "hashtags": [],
+    "location": "Barakaldo, Spain",
+    "name": "Asier Marqu\u00e9s \u2615"
+  },
+  "malaga": {
+    "gender": "undetermined",
+    "description": "Cuenta oficial del Ayuntamiento de M\u00e1laga / Official account of M\u00e1laga City Council | Alcalde / Mayor: @pacodelatorrep | #malagafunciona",
+    "hashtags": [],
+    "location": "M\u00e1laga, Espa\u00f1a, Uni\u00f3n Europea",
+    "name": "Ayuntamiento M\u00e1laga"
+  },
+  "venkat_s": {
+    "gender": "male",
+    "description": "programmer, author, speaker, founder Agile Developer, Inc., creator of https://t.co/iCugymwDfM, professor of CS at U of Houston",
+    "hashtags": [],
+    "location": "Colorado",
+    "name": "Venkat Subramaniam"
+  },
+  "JohnWings": {
+    "gender": "male",
+    "description": "JVM expert. Views are my own.",
+    "hashtags": [],
+    "location": "Saint Petersburg, Russia",
+    "name": "Ivan Krylov"
+  },
+  "ewoutp": {
+    "gender": "male",
+    "description": "Freelance Software Engineer, Co-founder Blue Oceans Group, Go/Ember.js/ArangoDB/Java/C# lover, JNode guy, Model train enthusiast",
+    "hashtags": [],
+    "location": "The Netherlands",
+    "name": "Ewout Prangsma"
+  },
+  "fteychene": {
+    "gender": "undetermined",
+    "description": "Cloud dev @saagie_io, @MtpTechHub President, #devops enthusiast, Development passionate. Speaker, Teacher, ... Opinions are mine not of my employer",
+    "hashtags": [],
+    "location": "Montpellier, France",
+    "name": "Francois Teychene"
+  },
+  "mcorreafdez": {
+    "gender": "female",
+    "description": "",
+    "hashtags": [],
+    "location": "M\u00e1laga, Spain",
+    "name": "Mari Carmen Correa"
+  },
+  "EburyES": {
+    "gender": "undetermined",
+    "description": "Especialistas en transacciones de #divisas. Nos posicionamos como alternativa a la banca tradicional en la gesti\u00f3n de divisas y coberturas de tipo de cambio.",
+    "hashtags": [],
+    "location": "Madrid",
+    "name": "Ebury Espa\u00f1a"
+  },
+  "tuxskar": {
+    "gender": "male",
+    "description": "Pythonist and open source lover",
+    "hashtags": [],
+    "location": "",
+    "name": "Oscar Ramirez"
+  }
+}
