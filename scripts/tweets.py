@@ -17,6 +17,7 @@ consumer_key = 'YOUR_APP_KEY'
 consumer_secret = 'YOUR_APP_SECRET'
 access_token = 'YOUR_ACCESS_TOKEN'
 access_token_secret = 'YOUR_TOKEN_SECRET'
+
 twitter = Twython(consumer_key, consumer_secret, oauth_version=1)
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -53,6 +54,8 @@ if __name__ == "__main__":
                  users[a['screen_name']] = {}
                  users[a['screen_name']]['hashtags'] = []
 
+             for hashtag in tweet._json['entities']['hashtags']:
+                 users[a['screen_name']]['hashtags'].append(hashtag['text'])
 
 
     for u in users.keys():
@@ -69,7 +72,11 @@ if __name__ == "__main__":
         elif g == "undetermined": undefined_c += 1
 
     total_count = len(users)
-
+    users['total_count']        =  total_count
+    users['female_count']       =  female_c
+    users['male_count']         =  male_c
+    users['nonbinary_count']    =  nonbinary_c
+    users['undefined_count']    =  undefined_c
 
     if len(users) > 0:
         female_rate   = str((female_c  * 100) / total_count)+"%"
@@ -77,7 +84,10 @@ if __name__ == "__main__":
         nonbinary_rate= str((nonbinary_c * 100) / total_count)+"%"
         undefined_rate= str((undefined_c * 100) / total_count)+"%"
 
-
+        users['female_rate']       =  female_rate
+        users['male_rate']         =  male_rate
+        users['nonbinary_rate']    =  nonbinary_rate
+        users['undefined_rate']    =  undefined_rate
 
 
     f = open( '../out/'+args.screen_name+'_tweets.json' , 'w')
